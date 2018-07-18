@@ -5,7 +5,7 @@ description: Browser Testing on CircleCI
 category: [test]
 ---
 
-*[Test]({{ site.baseurl }}/2.0/basics/) > Browser Testing*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Browser Testing*
 
 This document describes common methods for running and debugging browser testing in your CircleCI config in the following sections:
 
@@ -245,3 +245,7 @@ ubuntu@box10$ xclock
 You can kill xclock with `Ctrl+c` after it appears on your desktop.
 
 Now you can run your integration tests from the command line and watch the browser for unexpected behavior. You can even interact with the browser as if the tests were running on your local machine.
+
+## See Also
+
+[CircleCI Images]({{ site.baseurl }}/2.0/circleci-images/)
