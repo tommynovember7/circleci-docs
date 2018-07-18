@@ -1,18 +1,23 @@
 ---
 layout: classic-docs
-title: "Overview"
-short-title: "Overview"
+title: "Projects and Builds"
+short-title: "Projects and Builds"
 description: "Starting point for CircleCI 2.0 docs"
 categories: [getting-started]
 order: 1
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Overview*
+This document describes where CircleCI fits into your engineering processes and how it automates builds of your project.
 
-This document provides a summary of continuous integration, how CircleCI enables engineering teams with automation,  CircelCI case studies, and free trial information in the following sections:
+## Overview
 
-* TOC
-{:toc}
+After a software repository on GitHub or Bitbucket is authorized and added as a [project]({{ site.baseurl }}/2.0/glossary/#project) to circleci.com, every code change triggers a [build]({{ site.baseurl }}/2.0/build) and automated tests in a clean container or VM configured for your requirements. CircleCI then sends an email notification of success or failure after the build and tests complete. CircleCI also includes integrated Slack, HipChat, Campfire, Flowdock, and IRC notifications. Code test coverage results are available from the details page for any project for which a reporting library is added.
+
+CircleCI may be configured to deploy code to various environments, including AWS CodeDeploy, AWS EC2 Container Service (ECS), AWS S3, Google Container Engine (GKE), and Heroku. Other cloud service deployments are easily scripted using SSH or by installing the API client of the service with your job configuration.
+
+## Video: Continuous Integration with CircleCI
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b2l4zTS8lPg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## What is Continuous Integration?
 
@@ -46,12 +51,6 @@ The following video describes continuous integration, provides a demo of the app
   <iframe width="560" height="315" src="https://www.youtube.com/embed/YGYoYSR-d98" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Summary
-
-After a software repository on GitHub or Bitbucket is authorized and added as a project to [circleci.com](https://circleci.com), every code change triggers automated tests in a clean container or VM. CircleCI then sends an email notification of success or failure after the tests complete. CircleCI also includes integrated Slack, HipChat, Campfire, Flowdock, and IRC notifications. Code test coverage results are available from the details page for any project for which a reporting library is added.
-
-CircleCI may be configured to deploy code to various environments, including AWS CodeDeploy, AWS EC2 Container Service (ECS), AWS S3, Google Container Engine (GKE), and Heroku. Other cloud service deployments are easily scripted using SSH or by installing the API client of the service with your job configuration.
-
 ## Customer Use Cases
 
 The following section outlines two examples of real-world CircleCI usage.
@@ -83,7 +82,8 @@ CircleCI provides a free trial with the following options:
 
 - **Cloud**: See [Signup and Try CircleCI]({{site.baseurl}}/2.0/first-steps/) to get started with the hosted application.
 - **Server**: Refer to [CircleCI Trial Installation]({{site.baseurl}}/2.0/single-box/) for the Enterprise Trial instructions.
+ 
+## See Also
 
-### Open Source
-
-See [Building Open Source Projects]({{site.baseurl}}/2.0/oss/) for information about free containers for public open source projects. 
+- [Jobs, Steps, and Workflows]({{site.baseurl}}/2.0/jobs-steps/)
+- CircleCI [Basics]({{site.baseurl}}/2.0/basics/)
