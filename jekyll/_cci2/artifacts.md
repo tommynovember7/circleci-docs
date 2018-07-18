@@ -177,4 +177,4 @@ Adjust the value given to `-P` to fit your needs.
 
 ## See Also
 
-[Builds]({{ site.baseurl }}/2.0/builds/)
+[Builds]({{ site.baseurl }}/2.0/build/)
