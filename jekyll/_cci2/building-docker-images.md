@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 55
 ---
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Running Docker Commands*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Running Docker Commands*
 
 This document explains how to build Docker images for deploying elsewhere or for further testing and how to start services in remote docker containers in the following sections:
 
@@ -240,6 +240,10 @@ Then, the sample CircleCI `.circleci/config.yml` snippets below populate and bac
 {% endraw %}
 
 Thanks to ryansch for contributing this example.
+
+## See Also
+
+[Using Docker Compose]({{ site.baseurl }}/2.0/docker-compose/)
 
 
 [job-space]: {{ site.baseurl }}/2.0/glossary/#job-space
