@@ -7,7 +7,7 @@ categories: [optimization]
 order: 50
 ---
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Caching Dependencies*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Caching Dependencies*
 
 Caching is one of the most effective ways to make jobs faster on CircleCI by reusing the data from expensive fetch operations from previous jobs. After the initial job run, future instances of the job will run faster by not redoing work. 
 
@@ -552,3 +552,7 @@ from caching frontend assets.
 
 Do not cache everything,
 but _do_ consider caching for costly steps like compilation.
+
+## See Also
+
+[Language Guides]({{ site.baseurl }}/2.0/demo-apps/)
