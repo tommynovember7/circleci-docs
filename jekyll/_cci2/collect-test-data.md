@@ -7,7 +7,7 @@ description: "Collecting test metadata"
 order: 34
 ---
 
-*[Test]({{ site.baseurl }}/2.0/test/) > Collecting Test Metadata*
+*[Insights]({{ site.baseurl }}/2.0/insights/) > Collecting Test Metadata*
 
 CircleCI collects test metadata from XML files and uses it to provide insights into your job. This document describes how to configure CircleCI to output test metadata as XML for some common test runners and store reports with the `store_test_results` step. To see test result as artifacts, upload them using the `store_artifacts` step.
 
@@ -357,6 +357,6 @@ If you have multiple JUnit test reports from running more than one test suite or
 
 This tool can combine the reports into a single file that our test summary system can parse and give you correct test totals.
 
-## API
+## See Also
 
 To access test metadata for a run from the API, refer to the [test-metadata API documentation]( {{ site.baseurl }}/api/v1-reference/#test-metadata).
