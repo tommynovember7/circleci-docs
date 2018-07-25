@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 70
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Storing and Accessing Build Artifacts*
+*[Status]({{ site.baseurl }}/2.0/status/) > Storing and Accessing Build Artifacts*
 
 This document describes how to work with Artifacts in the following sections:
 
@@ -174,3 +174,7 @@ and downloads each artifact to the current directory.
 In this example, `xargs` runs four processes
 to download files in parallel via `wget`.
 Adjust the value given to `-P` to fit your needs.
+
+## See Also
+
+[Builds]({{ site.baseurl }}/2.0/build/)
