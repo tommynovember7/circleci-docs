@@ -6,7 +6,7 @@ description: "How to Add an SSH Key to CircleCI"
 order: 20
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Adding an SSH Key*
+*[Settings]({{ site.baseurl }}/2.0/settings/) > Adding an SSH Key*
 
 If deploying to your servers requires SSH access,
 you'll need to add SSH keys to CircleCI.
@@ -76,3 +76,7 @@ jobs:
 All fingerprints in the `fingerprints` list
 must correspond to keys
 that have been added through the CircleCI application.
+
+## See Also
+
+- [Deployment]({{ site.baseurl }}/2.0/deployment/)
