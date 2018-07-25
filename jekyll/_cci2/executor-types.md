@@ -8,7 +8,7 @@ order: 10
 ---
 [building-docker-images]: {{ site.baseurl }}/2.0/building-docker-images/
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Choosing an Executor Type*
+*[Executors & Images]({{ site.baseurl }}/2.0/executor-intro/) > Choosing an Executor Type*
 
 This document describes the `docker`, `machine`, and `macos` environments in the following sections:
 
