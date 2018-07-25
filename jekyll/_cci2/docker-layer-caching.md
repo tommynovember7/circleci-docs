@@ -7,7 +7,7 @@ categories: [optimization]
 order: 70
 ---
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Enabling Docker Layer Caching*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Enabling Docker Layer Caching*
 
 {% include beta-premium-feature.html feature='Docker Layer Caching' %}
 
