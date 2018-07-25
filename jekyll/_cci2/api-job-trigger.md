@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 80
 ---
  
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Running Jobs With the API*
+*[Triggers]({{ site.baseurl }}/2.0/triggers/) > Running Jobs With the API*
  
 This document describes
 how to trigger jobs using the CircleCI API.
@@ -101,3 +101,7 @@ Notes on the above example:
 
 - Using the `deploy` step in the build job is important to prevent triggering N builds, where N is your parallelism value.
 - We use an API call with `build_parameters[CIRCLE_JOB]=deploy_docker` so that only the `deploy_docker` job will be run.
+
+## See Also
+
+- [Workflows]({{ site.baseurl }}/2.0/workflows/)
