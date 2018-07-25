@@ -1,13 +1,13 @@
 ---
 layout: classic-docs
-title: "2.0 Sample Applications"
-short-title: "Demo App Index"
+title: "Languages"
+short-title: "Languages"
 description: "A list of sample CircleCI applications for several popular languages"
 categories: [language-guides]
 order: 0
 ---
 
-*[Tutorials & 2.0 Sample Apps]({{ site.baseurl }}/2.0/tutorials/) > 2.0 Sample Applications*
+*[Configuration]({{ site.baseurl }}/2.0/config-start/) > Languages*
 
 Code that builds on Linux or iOS will generally build on CircleCI 2.0. We’ve created several demo applications in various languages, so you can learn by example form an app written in the same laguage as your application. Each language listed below has an associated guide and public repository on GitHub. Fork them and follow along!
 
