@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 40
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Using Environment Variables*
+*[Settings]({{ site.baseurl }}/2.0/settings/) > Using Environment Variables*
 
 This document describes using environment variables in CircleCI in the following sections:
 
