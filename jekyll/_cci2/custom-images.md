@@ -7,7 +7,7 @@ categories: [containerization]
 order: 30
 ---
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Using Custom-Built Docker Images*
+*[Executors & Images]({{ site.baseurl }}/2.0/executor-intro/) > Using Custom-Built Docker Images*
 
 This document describes how to create and use custom Docker images with CircleCI in the following sections:
 
