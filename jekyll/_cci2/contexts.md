@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 41
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > Using Contexts*
+*[Settings]({{ site.baseurl }}/2.0/settings/) > Using Contexts*
 
 This document describes creating and using contexts in CircleCI in the following sections:
 
@@ -74,3 +74,6 @@ Environment variables declared inside a shell command `run step`, for example `F
 
 We're interested in your feedback on how Contexts can evolve. Read more about our proposed roadmap and offer suggestions in the [contexts discussion](https://discuss.circleci.com/t/contexts-feedback/13908).
 
+## See Also
+
+[Using Environment Variables]({{ site.baseurl }}/2.0/env-vars/)
