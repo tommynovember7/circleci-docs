@@ -7,7 +7,7 @@ categories: [containerization]
 order: 40
 ---
 
-*[Docker, Machine, and iOS Builds]({{ site.baseurl }}/2.0/build/) > Installing and Using docker-compose*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Installing and Using docker-compose*
 
 To use `docker-compose` with the `docker` key, install it in your [primary container][primary-container] during the job execution with the Remote Docker Environment activated by adding the following to your `config.yml` file:
 
