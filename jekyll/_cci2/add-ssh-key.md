@@ -79,4 +79,4 @@ that have been added through the CircleCI application.
 
 ## See Also
 
-- [Deployment]{{ site.baseurl }}/2.0/deployment/)
+- [Deployment]({{ site.baseurl }}/2.0/deployment/)
