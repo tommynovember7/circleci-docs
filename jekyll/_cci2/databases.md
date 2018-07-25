@@ -7,7 +7,7 @@ categories: [configuring-jobs]
 order: 35
 ---
 
-*[Test]({{ site.baseurl }}/2.0/test/) > Configuring Databases*
+*[Advanced Config]({{ site.baseurl }}/2.0/adv-config/) > Configuring Databases*
 
 * TOC
 {:toc}
