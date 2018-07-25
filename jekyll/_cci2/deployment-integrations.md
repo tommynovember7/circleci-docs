@@ -1,10 +1,12 @@
 ---
 layout: classic-docs
-title: "Deploy"
-short-title: "Deploy"
+title: "Configuring Deploys"
+short-title: "Configuring Deploys"
 ---
 
-![header](  {{ site.baseurl }}/assets/img/docs/deploy.png)
+
+
+*[Deployment]({{ site.baseurl }}/2.0/deployment/) > Configuring Deploys*
 
 CircleCI can be configured to deploy to virtually any service. This document provides instructions and examples for the following platforms:
 
