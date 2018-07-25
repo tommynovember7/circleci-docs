@@ -7,6 +7,8 @@ categories: [containerization]
 order: 20
 ---
 
+*[Deployment]({{ site.baseurl }}/2.0/deployment/) > Build & Publish Snap Packages* 
+
 Snap packages provide a quick way to publish your software on multiple Linux distributions (distros). This document shows you how to build a snap package and publish it to the Snap Store using CircleCI.
 
 ## Overview
