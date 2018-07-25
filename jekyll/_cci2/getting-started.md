@@ -7,6 +7,8 @@ categories: [getting-started]
 order: 41
 ---
 
+[Getting Started]({{ site.baseurl }}/2.0/) > Introduction
+
 This document provides a step-by-step tutorial for getting your first successful (green) build on CircleCI 2.0.
 
 * TOC
