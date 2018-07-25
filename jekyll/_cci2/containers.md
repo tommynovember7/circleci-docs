@@ -5,7 +5,7 @@ categories: [how-to]
 description: How to leverage CircleCI containers
 ---
 
-[Basics]({{ site.baseurl }}/2.0/basics/) > Using Containers
+[Jobs]({{ site.baseurl }}/2.0/build/) > Using Containers
 
 This document describes the basics of containers and how to leverage the containers in your plan to speed up your job and workflow runs. 
 
@@ -28,4 +28,8 @@ Linux plans start with the ability to run one workflow without parallelism at no
 ## Upgrading
 
 Refer to the [FAQ about upgrading]({{ site.baseurl }}/2.0/faq/#how-do-i-upgrade-my-plan-with-more-containers-to-prevent-queuing) for step-by-step instructions about upgrading your plan.
+
+## See Also
+
+[Status]({{ site.baseurl }}/2.0/status/)
 
