@@ -5,6 +5,8 @@ categories: [how-to]
 description: How to upload Artifacts to Artifactory
 ---
 
+*[Deployment]({{ site.baseurl }}/2.0/deployment/) > Upload to Artifactory*
+
 CircleCI supports uploading directly to Artifactory.
 
 ## Deploy
@@ -50,7 +52,7 @@ If you'd like to upload WAR files use the following example:
     - run: ./jfrog rt u "multi*/*.war" <artifactory_repo_name> --build-name=<name_you_give_to_build> --build-number=$CIRCLE_BUILD_NUM --flat=false
 ```
 
-The full .circleci/config.yml file would look something like the following:
+The full `.circleci/config.yml` file would look something like the following:
 
 ```
 jobs:
@@ -76,3 +78,7 @@ jobs:
             ./jfrog rt bce <name_you_give_to_build> $CIRCLE_BUILD_NUM  # collects all environment variables on the agent
             ./jfrog rt bp <name_you_give_to_build> $CIRCLE_BUILD_NUM  # attaches ^^ to the build in artifactory
 ```
+
+## See Also
+
+[Reference]({{ site.baseurl }}/2.0/reference/)
