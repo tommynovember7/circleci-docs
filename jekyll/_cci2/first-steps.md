@@ -27,4 +27,4 @@ The CircleCI Builds Dashboard appears. If you provided access to your GitHub or 
 
 ## See Also
 
-If you are new to CI/CD projects, see the [Projects and Builds]({{ site.baseurl }}/2.0/about-circleci/) document for a primer on projects, builds, and continuous integration.
+If you are new to [CI/CD]({{ site.baseurl }}/2.0/about-circleci/) projects, see the [Projects and Builds]({{ site.baseurl }}/2.0/about-circleci/) document for a primer on projects, builds, and continuous integration.
