@@ -7,7 +7,7 @@ categories: [getting-started]
 order: 2
 ---
 
-*[Basics]({{ site.baseurl }}/2.0/basics/) > [Hello World]({{ site.baseurl }}/2.0/hello-world/) > Sign Up and Try CircleCI 2.0*
+*[Getting Started]({{ site.baseurl }}/2.0/) > Sign Up and Try CircleCI 2.0*
 
 If you are already a CircleCI 1.0 user, go to [Hello World]({{ site.baseurl }}/2.0/hello-world/) to learn about adding the `.circleci/config.yml` file that enables 2.0 builds. If you are building on 2.0 and want to learn about Workflows, see [Orchestrating Workflows]({{ site.baseurl }}/2.0/workflows/). 
 
@@ -24,3 +24,7 @@ To run your very first CircleCI build on the CircleCI 2.0 platform, complete the
 4. Click the Authorize Application or equivalent button.
 
 The CircleCI Builds Dashboard appears. If you provided access to your GitHub or Bitbucket repositories, you are ready to configure CircleCI for your project. See the [Hello World]({{ site.baseurl }}/2.0/hello-world/) doc to configure your first simple 2.0 build. If you signed in with a Google account, you are able to try out the application and selected demo projects before authorizing access to your code.
+
+## See Also
+
+If you are new to CI/CD projects, see the [Projects and Builds]({{ site.baseurl }}/2.0/about-circleci/) document for a primer on projects, builds, and continuous integration.
